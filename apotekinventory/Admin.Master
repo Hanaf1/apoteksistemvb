@@ -1,0 +1,28 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="apotekinventory.Admin" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Admin Page</title>
+    <link href="Styles/AdminStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <header>
+                <h1>Admin Dashboard</h1>
+                <nav>
+                    <ul>
+                        <li><a href="AdminHome.aspx">Home</a></li>
+                        <li><a href="ManageUsers.aspx">Manage Users</a></li>
+                        <li><a href="Settings.aspx">Settings</a></li>
+                    </ul>
+                </nav>
+            </header>
+           
+            <footer>
+                <p>&copy; 2024 Admin Dashboard</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
